@@ -83,7 +83,7 @@ function child_theme_comment_policy() {
 
 		printf( '<p>' );
 
-			echo __( 'Please note: I reserve the right to delete comments that are offensive or off-topic.', 'hybopress' );
+			echo __( 'Please note: I reserve the right to delete comments that are offensive or off-topic.', 'getnoticed' );
 
 		echo '</p>';
 

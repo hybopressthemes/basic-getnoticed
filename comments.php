@@ -2,11 +2,11 @@
 
 /* Kill the page if trying to access this template directly. */
 if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && 'comments.php' === basename( $_SERVER['SCRIPT_FILENAME'] ) ) {
-	die( __( 'Please do not load this page directly. Thanks!', 'hybopress' ) );
+	die( __( 'Please do not load this page directly. Thanks!', 'getnoticed' ) );
 }
 
 if ( post_password_required() ) {
-	printf( '<p class="alert alert-warning">%s</p>', __( 'This post is password protected. Enter the password to view comments.', 'hybopress' ) );
+	printf( '<p class="alert alert-warning">%s</p>', __( 'This post is password protected. Enter the password to view comments.', 'getnoticed' ) );
 	return;
 }
 

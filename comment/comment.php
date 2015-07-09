@@ -16,7 +16,7 @@ printf( '<li %s>', hybrid_get_attr( 'comment' ) );
 
 			printf( '<span class="%s">', 'says sr-only' );
 
-				echo __( 'says:','hybopress' );
+				echo __( 'says:','getnoticed' );
 
 			echo '</span><br />';
 
@@ -24,7 +24,7 @@ printf( '<li %s>', hybrid_get_attr( 'comment' ) );
 
 				printf( '<time %s>', hybrid_get_attr( 'comment-published' ) );
 
-					printf( __( '%1$s at %2$s', 'hybopress' ), get_comment_date(), get_comment_time() );
+					printf( __( '%1$s at %2$s', 'getnoticed' ), get_comment_date(), get_comment_time() );
 
 				echo '</time>';
 
@@ -41,7 +41,7 @@ if ( '0' == $comment->comment_approved ) {
 
 		printf( '<em class="%s">', 'comment-awaiting-moderation' );
 
-			_e( 'Your comment is awaiting moderation.', 'hybopress' );
+			_e( 'Your comment is awaiting moderation.', 'getnoticed' );
 
 		echo '</em>';
 
