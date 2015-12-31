@@ -26,9 +26,18 @@ body {
 	margin-top: 40px;
 }
 
+.header-branding .nav > li > a {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.header-branding .navbar-nav .dropdown-menu {
+  margin-top: 0;
+}
+
 article.entry,
 .author-box,
-.loop-description,
+.archive-description,
 .social-share,
 .comments-template {
 	background: #fff;

@@ -1,2 +1,2 @@
-# basic-getnoticed
-Child Theme for Hybopress Basic
+# Basic Getnoticed
+Child Theme for Hybopress Basic.
